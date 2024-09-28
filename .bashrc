@@ -98,9 +98,9 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 
 #update the bashsetup
-cd ~/bashsetup
-git pull
-cd ~
+#cd ~/bashsetup_public
+#git pull
+#cd ~
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -121,10 +121,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-
-# Test for ASTR4004
-# PS1='\u@\h:\w>'
 
 # Ensure bash completion is enabled
 if [ -f /etc/bash_completion ]; then
